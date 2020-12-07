@@ -1,0 +1,61 @@
+API DATOS COVID CRUD JQUERY AJAX PHP BOOTSTRAP CHART JS
+
+ MADE BY:   Yasar José Cure González
+            Marco Aguirre Viloria
+            DESARROLLO WEB 13/10/2020
+            UNIVERSIDAD DE CÓRDOBA
+
+DATABASE: datos_covid.sql 
+DB TABLES: data_cordoba
+DOCUMENTATION: Documentacion APIDATOS.pdf
+LAST_UPDATE: 13/10/2020  9:20 pm <--
+
+Para acceder a este proyecto desde el navegador usando XAMPP, se debe crear un alias en httpd-xampp.conf,
+con la dirección a la carpeta api del proyecto. Por ej:
+
+Alias /api "C:/xampp/htdocs/projects/apidatos/api/"     ## apidatos es el nombre del proyecto
+<Directory "C:/xampp/htdocs/projects/apidatos/api">
+AllowOverride All
+</Directory>
+
+Los archivos php en la carpeta raíz corresponden al diseño de las interfaces que maneja la API.
+Éstos consisten en un documento HTML, con código PHP y scripts.
+
+La carpeta api contiene el index.php donde se realizan las peticiones.
+Se realizaron endpoints para cada página de la API, y para las funciones adicionales necesarias para obtener y mostrar la información en las gráficas y tablas.
+
+La carpeta css contiene los elementos del framework Bootstrap necesarios para el diseño del front-end.
+La carpeta js contiene los scripts de Bootstrap, JQuery, ChartJS y el archivo the_graphics.js, que es donde realizamos TODOS los métodos del CRUD con AJAX, y CHARTJS.
+
+La carpeta php contiene: 
+db.php: la conexión a la base de datos
+getdata.php: mediante la consola ejecutas este archivo y obtiene los datos de covid19 de datos.gov.co y los guarda en la bd mysql datos_covid.sql
+llenardb.php: anexo de getdata que tiene el método que guarda la info en db. 
+modelo.php: donde se hacen los métodos para las consultas sql.
+
+
+____________________________________________________
+<notas>
+Notas: Si ve alguna inconsistencia en el presente código, anotarla en este espacio, y modificar la fecha de actualización (LAST_UPDATE). Estamos para aprender!
+Ha llevado mucho esfuerzo y hemos aprendido mucho. [¡Esperamos sus comentarios!]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<notas>
+____________________________________________________
+
+
+notas.txt COPYRIGHT BY YASARJOSÉ
+EMAIL: YCURE10@GMAIL.COM

@@ -1,7 +1,7 @@
 <?php include ("header.html");?>
 
 
-<a href = "#" class = "navbar-brand"><h4>FALLECIDOS</h4></a>
+<a href = "" class = "navbar-brand"><h4>FALLECIDOS</h4></a>
       
       </div>
     </nav>

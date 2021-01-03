@@ -12,7 +12,7 @@ Reporte de fallecidos por COVID-19 por municipios en Córdoba
 </h3>
 </div>
 
-<!--  GRAPHIC XD  -->
+<!--  GRAPHIC -->
 <div id= "texto" align="center" >
 
 </div>
